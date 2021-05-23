@@ -2,12 +2,21 @@
 
 - The below technical guidance has been provided for the task
 - You should use the CRUK component library when building your form https://www.npmjs.com/package/@cruk/cruk-react-components 
+![image](https://user-images.githubusercontent.com/11517358/119277907-27553800-bc1a-11eb-91b1-605b3b291310.png)
+![image](https://user-images.githubusercontent.com/11517358/119277913-30dea000-bc1a-11eb-8b11-96701c8b9fc7.png)
+![image](https://user-images.githubusercontent.com/11517358/119277927-3cca6200-bc1a-11eb-8d9b-54a38c3c0614.png)
+
 
 ## Documentation for tools used
 - Formik: https://formik.org/docs/overview 
 - Yup https://github.com/jquense/yup 
 - Styled components https://styled-components.com/docs 
 - NASA Images and Video Library API https://api.nasa.gov/ 
+- start - npm start
+- unit test - npm run test
+- e2e test - npm run e2e-test
+
+
 
 ## Task details
 You will be building a form which will fetch assets from the NASA Images and Video Library API. The fields will provide filters for the query. The media returned should be displayed below the form for the user. The user should only see the first 10 items.
